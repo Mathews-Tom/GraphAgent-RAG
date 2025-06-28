@@ -1,0 +1,17 @@
+[project]
+name = "graphagent-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.12.13",
+    "asyncpg>=0.30.0",
+    "fastapi>=0.115.14",
+    "graphiti-core>=0.14.0",
+    "openai>=1.93.0",
+    "pydantic>=2.11.7",
+    "pydantic-ai>=0.3.4",
+    "python-dotenv>=1.1.1",
+    "uvicorn>=0.34.3",
+]
