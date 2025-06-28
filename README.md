@@ -47,11 +47,11 @@ title: GraphAgent-RAG           # visible diagram title
 config:
   theme: base
   themeVariables:
-    titleColor: '#0d47a1'       # just the title’s colour
-  themeCSS: |                   # font-size + weight for the title only
+    titleColor: '#0d47a1'       # title color only
+  themeCSS: |
     .diagram-title-text {
-      font-size: 28px;
-      font-weight: 700;
+      font-size: 32px;          /* 16 px × 2 = 32 px */
+      font-weight: 800;         /* extra-bold */
     }
 ---
 graph TD
