@@ -42,6 +42,18 @@ The system processes information through a carefully orchestrated pipeline that 
 ### 📊 System Architecture Diagram
 
 ```mermaid
+---
+title: GraphAgent-RAG           # visible diagram title
+config:
+  theme: base
+  themeVariables:
+    titleColor: '#0d47a1'       # just the title’s colour
+  themeCSS: |                   # font-size + weight for the title only
+    .diagram-title-text {
+      font-size: 28px;
+      font-weight: 700;
+    }
+---
 graph TD
     %% Input Layer
     A[📄 Raw Documents<br/>Markdown Files] --> B[🔄 Document Ingestion Pipeline]
@@ -94,8 +106,6 @@ graph TD
     class H,I,J,K,L,M agent
     class N,O,P,Q,R interface
 ```
-
-</details>
 
 ### Component Details
 
